@@ -35,6 +35,35 @@
     }
     echo "menor <br>";
   }
+
+/********************* FUNCTION RETURN **************************/
+
+/*
+
+<form action="pagina.php" method="get">
+<input type="text" name="datos">
+<input type="submit" value="Enviar">
+</form> 
+
+*/
+
+
+$resultado = $_GET['datos'];
+$conulta ='<->';
+$con = strpos($resultado, $consulta);
+
+if ($con !== false){
+  return $resultado;
+}
+
+function devolver (){
+  if($consulta === "<->"){
+    return $resultado;
+  }
+}
+
+
+
 /********************* REPETICION ARRAY ************************/
   $array = array (1,5,78,54,5,5,78,2,5,5);
   print_r(array_count_values($array));
