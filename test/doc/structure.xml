@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="PruebasMayorMenor.php" generated-path="PruebasMayorMenor.html" hash="5fea23deb0b7819742dbe5c1cc5e68bf" package="Default">
+    <docblock line="0">
+      <description>Array mayor y menor</description>
+      <long-description>Creamos un array y mediante while y if determinamos que número és menor y cuál es mayor</long-description>
+      <tag name="param" line="0" description="&lt;p&gt;Array de números a comprobar&lt;/p&gt;" type="array&lt;mixed,integer&gt;" variable="$cantidad">
+        <type>array&lt;mixed,integer&gt;</type>
+      </tag>
+      <tag name="param" line="0" description="&lt;p&gt;número 0 para iniciar a recorrer el array&lt;/p&gt;" type="integer" variable="$i">
+        <type>integer</type>
+      </tag>
+      <tag name="author" line="0" description="Albert Batlle Valero" link="mailto:albert.batlle@gmail.com"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <source>eJydU0tuwkAM3SNxBwtlQWjKR1C6IOHT3qEbxMJJps1ImUzqJKpQxWG67BW65WKdTxTxaYvKBg/Pfs9+nom/yJO83QIY9Ho69GBFhFsQuJUEKrJMkknY7CMxFLKAKgM0hbok5piVDN4SnjIF8GeIWclI8MzUvlYMsv2XYCRh/1lYTVUXVfuPFFhhmx00WeZIKIBn5XoDTqTEeYxxPVnciBWAEEmRkwyRTpng8KbpEDSsUB5xJMUiFkkiRsBSa+OwOVZlouZbpSGjEh6wTJWrJ0y1ko8G7YcGXb4I5GlfzTA33EG7pWMzcWC0u2Nv4k29kTe9827H+jR0Z6aOB0N7MBsJGt7a4Zs6oTfzQ8KsuutwP7h39f93/QNq812rNT+iuDZbF/3RD2BngxrN4TcjAxqIRYmEjiWCH9K8M7vS6hWONMW/4OgX2cuOzEO/wlG9QxOOPdrvQHuZuGcXczyj+487sQOf3sBOvzl1WKgn+A0uWA/f</source>
+  </file>
+  <file path="PruebasRepeticion.php" generated-path="PruebasRepeticion.html" hash="9a37964656a363054f25447ca6fe86d0" package="Default">
+    <docblock line="0">
+      <description>Repetición Array</description>
+      <long-description>Comprobamos si algun valor del Array se repite y la cantidad de veces que se produce</long-description>
+      <tag name="param" line="0" description="&lt;p&gt;Array de valores a comprobar&lt;/p&gt;" type="array&lt;mixed,integer&gt;" variable="$array">
+        <type>array&lt;mixed,integer&gt;</type>
+      </tag>
+      <tag name="author" line="0" description="Albert Batlle Valero" link="mailto:albert.batlle@gmail.com"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <source>eJw1jkFqAzEMRfcDvoMWXUyGIaEloYGmTdLeoItuQgkaj0gMnrEr24Gcq0foxSp7kpWkz//va7P1Z6+qRdOoqoFP8hSNNn+/I+yZ8Spi1j/c4Nl1OLgAwQDaUxrhgtYx9GQnKwQCJm8iwRUsgsYxmh57ccCFNAX4SZRNQuqTpht655FxADPGwzc8YCFNvJzLFZIU2u0DvscwxbPU721HHOEdo7UEX2iJHWywqPOuqLvTgMbOhfAmyYWqVAX3pleYZv3YrtrndbtayizbU15mL9nrWb47cl2sR+2SXPJZolBPmFn2qWor/H9Tr2jq</source>
+  </file>
+  <file path="PruebasReturn.php" generated-path="PruebasReturn.html" hash="ec89251c35de5a4708e64efc40390f4b" package="Default">
+    <docblock line="0">
+      <description>Function Return si encontramos &lt;-&gt;</description>
+      <long-description>Mediante un if determinamos si aparece &lt;-&gt; en los datos introducidos por el usuario, y en caso afirmativo se produce un return</long-description>
+      <tag name="param" line="0" description="&lt;p&gt;es la variable con la que obtenemos a traves de un get los datos introducidos por el usuario&lt;/p&gt;" type="integer" variable="$resultado">
+        <type>integer</type>
+      </tag>
+      <tag name="param" line="0" description="&lt;p&gt;elemento &lt;-&gt;&lt;/p&gt;" type="integer" variable="$consulta">
+        <type>integer</type>
+      </tag>
+      <tag name="param" line="0" description="&lt;p&gt;comprobar si $consulta aparece en $resultado&lt;/p&gt;" type="integer" variable="$con">
+        <type>integer</type>
+      </tag>
+      <tag name="return" line="0" description="$resultado" type="integer">
+        <type>integer</type>
+      </tag>
+      <tag name="author" line="0" description="Albert Batlle Valero" link="mailto:albert.batlle@gmail.com"/>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <function namespace="" line="37" package="Default">
+      <name>devolver</name>
+      <full_name>\devolver()</full_name>
+      <docblock line="37">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="37" description="Default"/>
+      </docblock>
+    </function>
+    <parse_markers>
+      <error line="37" code="PPC:ERR-50011">No summary for function \devolver()</error>
+    </parse_markers>
+    <source>eJyNU9tq20AQfTf4HyYiYMek9gfEyqWQ5CkvpfSllDKSRs7CXtS9iIaQf+/ZtVWbNA9lYdHOnjlz5sxqezM8D/PZZrWaz1b0kGwblbP0RWLyloIisa2z0bNxgbafroHKwCfpFNsolCypnjqJ4o2yBYUkHthLKzkBBKQR7ThiV6ByXWpVh8PgPImmFBJ75S7pJWNbDo64V95wVKOjIDSUlFLLF10HEbeowiZz0rmXkHTkzpEE0kwjKLnRQlCfz7+SkGuiWMkSmdDRCGRXWHcS/0/jB4XBXyoDJUZsdCcuvcNBi0EvDfvs0TFzcgvdH/uYKPYdv2tyuuQUnyHwTjfiI33mqNHxN9biIYNLdN2U6O3OsNJrKMjiNvNZXptV3re984a4DL6uBt5hjmu8ioqMgL6rK/hTIW2r7JAixZdB6irK71gRJo7v4ts/iJAao4AZWScc7+2o2BfUJle8zrUnJSfzq+n85+P91++Lwrr4cYXbv1bVC7i7OIQADdEPLiyP6ZdHXy+uMjNe57KAz+qaetZBLl7nMzq8pBNPgX7LCf30D3QyOj2Kp+U+Q/XLEyFgq6Cl2t99zEf0diDN6wYd/wHBTRUi</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>

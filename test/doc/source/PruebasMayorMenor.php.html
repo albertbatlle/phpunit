@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+  /**
+  * Array mayor y menor
+  *
+  * Creamos un array y mediante while y if determinamos que n&uacute;mero &eacute;s menor y cu&aacute;l es mayor
+  *
+  * @param int[] $cantidad Array de n&uacute;meros a comprobar
+  * @param int $i n&uacute;mero 0 para iniciar a recorrer el array
+  *
+  * @author Albert Batlle Valero &lt;albert.batlle@gmail.com&gt;
+  */
+
+  $cantidad=array(3,4,6,1,65,-3,6,10);
+  $i=0;
+  $menor=$cantidad[$i];
+  $mayor=$cantidad[$i];
+  while($i&lt;=7)
+  {
+    if($menor&gt;$cantidad[$i])
+    {
+      $menor=$cantidad[$i];
+    }
+    $i=$i+1;
+  }
+  echo &quot;$menor &lt;br&gt;&quot;;
+  $cantidad=array(3,4,6,1,65,-3,6,10);
+  $i=0;
+  $mayor=$cantidad[$i];
+  while($i&lt;=7)
+  {
+    if($mayor&lt;$cantidad[$i])
+    {
+      $mayor=$cantidad[$i];
+    }
+    $i=$i+1;
+  }
+  echo &quot;$mayor &lt;br&gt;&quot;;
+  $cantidad=array(3,4,6,1,65,-3,6,10);
+  $menor=$menor;
+  $i=0;
+  while ($i&lt;4){
+    if($menor&gt;=$cantidad[$i]){
+      $menor=$cantidad[$i];
+    }
+    echo &quot;menor &lt;br&gt;&quot;;
+  }
+
+
+ ?&gt;
+</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

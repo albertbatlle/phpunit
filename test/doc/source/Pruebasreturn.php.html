@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+/**
+* Function Return si encontramos &lt;-&gt;
+*
+* Mediante un if determinamos si aparece &lt;-&gt; en los datos introducidos por el usuario, y en caso afirmativo se produce un return
+*
+* @param int $resultado es la variable con la que obtenemos a traves de un get los datos introducidos por el usuario
+*
+* @param int $consulta elemento &lt;-&gt;
+*
+* @param int $con comprobar si $consulta aparece en $resultado
+*
+* @return int $resultado
+*
+* @author Albert Batlle Valero &lt;albert.batlle@gmail.com&gt;
+*/
+
+
+/*
+
+&lt;form action=&quot;pagina.php&quot; method=&quot;get&quot;&gt;
+&lt;input type=&quot;text&quot; name=&quot;datos&quot;&gt;
+&lt;input type=&quot;submit&quot; value=&quot;Enviar&quot;&gt;
+&lt;/form&gt;
+
+*/
+
+
+$resultado = $_GET['datos'];
+$consulta ='&lt;-&gt;';
+$con = strpos($resultado, $consulta);
+
+if ($con !== false){
+  return $resultado;
+}
+
+function devolver (){
+  if($consulta === &quot;&lt;-&gt;&quot;){
+    return $resultado;
+  }
+}
+
+
+
+?&gt;
+</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>
